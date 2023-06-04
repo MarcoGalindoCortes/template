@@ -1,5 +1,5 @@
 let saludar = () => {
-    return "HOLA";
+    return "HOLA GITHUB";
 }
 
 module.exports = {saludar};
