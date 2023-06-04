@@ -1,1 +1,5 @@
-console.log("HOLA");
+let saludar = () => {
+    return "HOLA";
+}
+
+module.exports = {saludar};
