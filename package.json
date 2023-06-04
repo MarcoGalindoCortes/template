@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sonar": "sonar-scanner -D\"sonar.projectKey=Template\" -D\"sonar.sources=.\" -D\"sonar.host.url=http://localhost:9000\" -D\"sonar.token=sqp_b286f4c1b8916ab2ec7d9eafe59e4ea9ee49eaa1\"",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0",
+    "sonarqube-scanner": "^3.0.1",
     "supertest": "^6.3.3"
   },
   "dependencies": {
